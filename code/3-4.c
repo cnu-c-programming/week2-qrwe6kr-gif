@@ -7,7 +7,7 @@ int main()
     a = b = c = 5;
     prinf("%d %d %d\n", a, b, c);
 
-    a = 2 + 3 + 4;
+    a = 2 + 3 * 4;
     prinf("%d %d %d\n", a, b, c);
 
     c = a++ + ++ b;
