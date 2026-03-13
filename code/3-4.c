@@ -2,7 +2,7 @@
 
 int main()
 {
-    int a, b, c;
+    int a,b,c;
 
     a = b = c = 5;
     prinf("%d %d %d\n", a, b, c);
