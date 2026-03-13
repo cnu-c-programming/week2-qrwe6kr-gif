@@ -2,6 +2,20 @@
 
 int main()
 {
+    int a;
+    int b;
+    int result;
+    char c; 
+
+    scanf("%d %d", &a, &b);
+    scanf("%c", &c);
+
+    if ( c=='-' ) {
+        result = a-b; 
+        printf("%d\n", result);
+    }
+    else { }
+
 
     return 0;
 }
