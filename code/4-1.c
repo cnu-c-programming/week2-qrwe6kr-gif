@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 int main()
 {
     int a;
@@ -9,13 +7,11 @@ int main()
 
    scanf("%d %d %c", &a, &b, &c);
 
-    if ( c=='-' ) {
-        result = a-b; 
-        printf("%d\n", result);
+    switch ( c ) {
+        case '+' printf("%d\n", a+b); break;
+        case '-' printf("%d\n", a-b); break;
+        case '*' printf("%d\n", a*b); break;
+        case '/' printf("%d\n", a/b); break;
     }
-    else { }
-
-
     return 0;
 }
-
