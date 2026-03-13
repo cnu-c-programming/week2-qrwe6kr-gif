@@ -2,20 +2,13 @@
 
 int main()
 {
-    int var1 = 100;
-    printf("int : %d\n", var1);
-    printf("hex : %d\n", var1);
-    printf("oct : %d\n", var1);
-
-    char var2 = 'c';
-    printf("char : %c\n", var2);
-
-    char* var3 = "hello world!";
-    printf("string : %s\n", var3);
-
-    float var4 = 3.141592;
-    printf("float : %f\n", var4);
-    printf("exp : %1f\n", var4);
+    printf("char: %u\n", sizeof(char));
+    printf("Short: %u\n", size(short));
+    printf("int: %u\n", sizeof(int));
+    printf("unsigned int: %u\n", size(unsigned int));
+    printf("long: %u\n", sizeof(long));
+    printf("long long: %u\n", sizeof(long  long));
+    printf("float: %u\n", size(long long));
 
     return 0;
 }
