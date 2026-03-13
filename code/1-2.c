@@ -1,11 +1,21 @@
 #include <stdio.h>
 int main()
 {
-    printf("% 10s\n", "name id value");
-    printf("% 10s\n", "kim 12 4. 120000");
-    printf("% 10s\n", "lee 1922 3.210000");
-    printf("% 10s\n", "park 432 1.000000");
+    printf("% 4s", "name");
+    printf("% 11s", "id");
+    printf("% 11s\n", "value");
 
+    printf("% 4s", "kim");
+    printf("% 11d", "12");
+    printf("% 11f\n", "4.120000");
 
+    printf("% 4s", "lee");
+    printf("% 11d", "1922");
+    printf("% 11f\n", "1.000000");
+
+    printf("% 4s", "park");
+    printf("% 11d", "432");
+    printf("% 11f\n", "1.000000");
+    
     return 0;
 }
