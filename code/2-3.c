@@ -4,7 +4,7 @@ int main()
 {
     unsigned int x = 0x12345678;
 
-    unsigned char* addr = (unsighed char)&8x;
+    unsigned char* addr = (unsighed char*)&x;
 
     printf("%x\n", *addr);
     printf("%x\n", *(addr + 1));
