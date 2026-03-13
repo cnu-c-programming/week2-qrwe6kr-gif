@@ -9,15 +9,11 @@ int main()
         for ( int i=2; i < x; i++ ) {
             if ( x % i == 0 ) {
                 printf("%s\n", "false");
-                break;
-            }
-            else { 
-                 printf("%s\n", "true");
-                break;
+                return 0;
             }
         
         }
+         printf("%s\n", "true");
     }
     return 0;
 }
-
