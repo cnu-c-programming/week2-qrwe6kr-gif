@@ -3,7 +3,7 @@
 int main()
 {
     printf("char: %u\n", sizeof(char));
-    printf("Short: %u\n", sizeof(short));
+    printf("short: %u\n", sizeof(short));
     printf("int: %u\n", sizeof(int));
     printf("unsigned int: %u\n", sizeof(unsigned int));
     printf("long: %u\n", sizeof(long));
